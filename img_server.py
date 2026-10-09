@@ -5,6 +5,7 @@ import shutil
 from pathlib import Path
 from PIL import Image
 
+
 def recv_image_data(client_socket, file_name, file_data_len):
     """
     receive the image data and save the image
